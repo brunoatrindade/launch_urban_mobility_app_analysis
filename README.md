@@ -2,24 +2,31 @@
 Este projeto consiste em uma análise estratégica de dados para o lançamento do aplicativo Zuber, uma nova empresa de ride-sharing em Chicago. 
 O objetivo é identificar padrões de consumo, analisar a concorrência e validar cientificamente o impacto de fatores externos, como o clima, na operação de transporte urbano.
 
-# Tecnologias e Ferramentas:
+### Tecnologias e Ferramentas:
 - Extração de Dados: Web Scraping (Python) para coleta de dados meteorológicos.
 - Banco de Dados: SQL para limpeza, filtragem e integração de dados (JOINs, CASE, Agrupamentos).
 - Análise de Dados: Python e biblioteca Pandas.
 - Visualização de Dados: Matplotlib e Seaborn.
 - Estatística: Teste de Hipóteses com a biblioteca SciPy.
 
-# Descrição do Projeto:
+### Descrição do Projeto:
 Como analista de dados da Zuber, trabalhei com um banco de dados contendo informações sobre bairros (neighborhoods), frotas de táxi (cabs), registros de corridas (trips) 
 e dados meteorológicos (weather_records).
 
-# Etapas de Desenvolvimento:
+### Etapas de Desenvolvimento:
 - Web Scraping: Extração e análise de dados climáticos de Chicago em Novembro de 2017.
 - Processamento SQL: * Análise de market share entre empresas líderes (como Flash Cab e Taxi Affiliation Services).
 - Integração de dados de viagens com condições climáticas através de chaves temporais.
 - Segmentação de condições climáticas em "Good" (Bom) e "Bad" (Ruim) usando lógica condicional SQL.
 - Análise Exploratória em Python: Estudo dos 10 principais destinos e volume de corridas por empresa.
 - Teste de Hipótese Estatística: Avaliação da variação da duração das viagens sob diferentes condições climáticas.
+
+### Visualização de Insights
+#### Destinos mais populares em Chicago
+![Top 10 Bairros](top10_bairros.png)
+
+#### Volume de Corridas por Empresa com mais de 1% de Mercado (Market Share)
+![Volume de Corridas](output.png)
 
 # Teste de Hipótese:
 Pergunta: A duração média das viagens do bairro Loop para o Aeroporto Internacional O'Hare muda nos sábados chuvosos?
