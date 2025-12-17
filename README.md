@@ -42,6 +42,6 @@ ou nichos de bairros específicos.
 - Impacto Logístico do Clima: (Ajuste aqui conforme seu resultado final): O teste estatístico confirmou que o tempo de viagem aumenta significativamente em dias de chuva, indicando a necessidade de modelos de precificação dinâmica e alertas de tempo de espera para melhorar a experiência do usuário.
 
 # Como visualizar o projeto
-Os resultados das consultas SQL podem ser encontrados nos arquivos .csv no repositório.
+Os resultados das consultas SQL podem ser encontrados nos 3 arquivos .csv no repositório.
 A análise completa e os testes estatísticos estão detalhados no arquivo analise_mobilidade_urbana.ipynb.
 
