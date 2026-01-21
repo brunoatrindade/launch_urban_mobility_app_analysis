@@ -1,4 +1,4 @@
-# Lançamento de aplicativo de mobilidade urbana com análise de Mercado e impactos externos como o clima
+# Lançamento de aplicativo de mobilidade urbana com análise de mercado e impactos externos para o passageiro
 Este projeto consiste em uma análise estratégica de dados para o lançamento do aplicativo Zuber, uma nova empresa de ride-sharing em Chicago. 
 O objetivo é identificar padrões de consumo, analisar a concorrência e validar cientificamente o impacto de fatores externos, como o clima, na operação de transporte urbano.
 
